@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/daypicker_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:layout_marginTop="8dp"
+        android:id="@+id/daypicker"
+        layout="@layout/day_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/set_days_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="@dimen/button_corner_radius"
+        android:layout_marginBottom="12dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:text="@string/set"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="4dp">
+
+
+    <TextView
+        android:id="@+id/week_commencing_titlew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/week_commencing"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/week_commence_date_tvw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/week_commence_date_tvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/week_commencing_titlew"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12w"
+        app:layout_constraintStart_toStartOf="@+id/week_commencing_titlew"
+        app:layout_constraintTop_toBottomOf="@+id/week_commencing_titlew" />
+
+    <TextView
+        android:id="@+id/textView12w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/week_commence_date_tvw"
+        android:text="@string/total_hours_title"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/week_commence_date_tvw"
+        app:layout_constraintTop_toBottomOf="@+id/week_commence_date_tvw" />
+
+    <TextView
+        android:id="@+id/total_hours_tvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/week_commence_date_tvw"
+        android:layout_toEndOf="@+id/textView12w"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12w"
+        app:layout_constraintStart_toEndOf="@+id/textView12w"
+        app:layout_constraintTop_toTopOf="@+id/textView12w"
+        app:layout_constraintVertical_bias="0.38" />
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Timesheets</string>
+    <string name="title_timesheet_detail">Timesheet Detail</string>
+
+    //Toolbar titles
+    <string name="create_contract">Create Contract</string>
+    <string name="timesheet_edit">Timesheet Edit</string>
+    <string name="contracts_title">Contracts</string>
+    <string name="timesheets_title">Timesheets</string>
+
+    //Day Picker Dialog
+    <string name="set">Set</string>
+
+    //Timesheet List Item send button
+    <string name="send">Send</string>
+    <string name="resend">Resend</string>
+
+    <string name="set_date_toast">Please set the week commencing date for this timesheet.</string>
+
+    //Alert Dialog
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    //Notifications
+    <string name="notification_channel_name">Send Timesheet Reminder Notification</string>
+    <string name="timesheet_reminder_notification_title">Timesheet Time</string>
+    <string name="timesheet_reminder_notification_body">Have you sent this weeks timesheet?</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="create_new_timesheet_hint">Create your first timesheet</string>
+
+    //Toasts
+    <string name="toast_cannot_be_deleted">Timesheets cannot be deleted once sent for approval</string>
+    <string name="please_complete_all_fields">Please complete all the fields</string>
+    <string name="please_set_default_days">Please set your default work days</string>
+    <string name="sign_in_failed">"Sign In failed"</string>
+    <string name="enter_details">"Please enter your details to sign in"</string>
+    <string name="timesheet_saved">Timesheet saved</string>
+
+    //Date Format
+    <string name="date_format">dd/mm/yyyy</string>
+
+    //Default Days Strings
+    <string name="mon">Mon </string>
+    <string name="tue">Tue </string>
+    <string name="weds">Weds </string>
+    <string name="thurs">Thurs </string>
+    <string name="fri">Fri </string>
+    <string name="sat">Sat </string>
+    <string name="sun">Sun </string>
+
+    //Manager Email
+    <string name="email_subject_append">"'s Timesheet - Week Commencing "</string>
+    <string name="email_body_append_week_commencing"> has submitted a timesheet via Timesheets App for the week commencing </string>
+    <string name="email_body_append_see_attached">Please see the attached certificate to approve the hours.</string>
+
+    //Cloud Function Urls
+    <string name="cloud_user_append">userId=</string>
+    <string name="cloud_company_append">&amp;company=</string>
+    <string name="cloud_timesheet_append">&amp;timesheetId=</string>
+
+    //ads
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="mobile_ads_id">ca-app-pub-8229431777450337~9164003069</string>
+
+    //xml
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="company_name">Company Name</string>
+    <string name="manager_name">Manager Name</string>
+    <string name="manager_email">Manager Email</string>
+    <string name="default_daily_hours">Default Daily Hours</string>
+    <string name="default_days">Default Days</string>
+    <string name="start_date">Start Date</string>
+    <string name="login">Login</string>
+    <string name="google_sign_in">Google Sign In</string>
+    <string name="sign_up_with_email">Sign Up With Email</string>
+    <string name="company">Company</string>
+    <string name="start_date_title">Start Date:</string>
+    <string name="m">M</string>
+    <string name="t">T</string>
+    <string name="w">W</string>
+    <string name="f">F</string>
+    <string name="s">S</string>
+    <string name="week_commencing">Week Commencing</string>
+    <string name="set_date">Set date</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="download">Download</string>
+    <string name="total_hours_title">Total hours:</string>
+    <string name="delete">Delete</string>
+    <string name="update_contract">Update Contract</string>
+
+
+    //Content Descriptions
+    <string name="timsheets_logo">Application Logo</string>
+    <string name="edit_contract_button">Edit contract button</string>
+    <string name="timesheet_rejected_stamp">Timesheet Rejected Stamp</string>
+    <string name="timesheet_approved_stamp">Timesheet Approved Stamp</string>
+
+
+</resources>

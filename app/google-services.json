@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "213621017131",
+    "firebase_url": "https://timesheets-6bb48.firebaseio.com",
+    "project_id": "timesheets-6bb48",
+    "storage_bucket": "timesheets-6bb48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213621017131:android:4d6a688474aaddad",
+        "android_client_info": {
+          "package_name": "com.example.scott.timesheets_capstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213621017131-s02vnrkcrguduo3ustm9d8fuga2u2odt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scott.timesheets_capstone",
+            "certificate_hash": "a9cd188b48bc989e4dd292f7a09e92bad477d2e3"
+          }
+        },
+        {
+          "client_id": "213621017131-kf4vh3qbc2q88mql6g1gkmfod56m1n40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCuDxMDHUp0iOYA62y8SRisVM-TmMx34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213621017131-kf4vh3qbc2q88mql6g1gkmfod56m1n40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
